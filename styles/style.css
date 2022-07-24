@@ -16,12 +16,16 @@ body {
 
 .salahpic {
     position: relative;
-    width: 1fr;
+
     margin: 0;
     padding: 0;
     top: 4px;
 
     right: 100px;
+}
+
+.banner-container img {
+    width: 800px;
 }
 
 .titletext {
@@ -30,6 +34,15 @@ body {
     width: 50%;
     color: rgb(255, 255, 255);
     padding: 50px 100px 50px 100px;
+}
+
+.titletext h1 {
+    font-size: 100px
+}
+
+.titletext p {
+    padding: 10px;
+    font-size: 25px
 }
 
 .button {
@@ -86,7 +99,7 @@ body {
 
 
 .match-container {
-    position: sticky;
+
     display: grid;
     grid-template-columns: 500px 500px 500px;
 }
@@ -174,6 +187,10 @@ body {
     height: 220px;
 }
 
+.view button {
+    visibility: hidden;
+}
+
 .foot {
     background-color: rgb(20, 20, 20);
     height: 400px;
@@ -212,4 +229,218 @@ hr {
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+
+@media screen and (max-width: 576px) {
+
+    .gridmenu {
+        padding-left: 20px;
+        position: relative;
+        top: -15px;
+        display: grid;
+        grid-template-columns: 450px;
+
+    }
+
+    .match-container {
+        position: sticky;
+        display: grid;
+        grid-template-columns: 500px;
+    }
+
+    .banner-container button {
+        position: relative;
+        right: 40px;
+    }
+
+    .banner-container img {
+        width: 350px;
+    }
+
+    .salahpic {
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding-left: 110px;
+        top: 4px;
+
+        right: 100px;
+    }
+
+    .titletext h1 {
+        font-size: 30px;
+    }
+
+    .titletext p {
+        font-size: 20px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+
+    }
+
+
+
+    .banner-container {
+        margin: 50px 50px 200px 50px;
+
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(32, 32, 32);
+    }
+
+
+    .navbar {
+        background-color: cadetblue;
+        width: 380px;
+    }
+
+    .foot {
+        height: 900px;
+    }
+
+    .footp {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
+
+    .gridmenu2 {
+        position: relative;
+        top: -15px;
+        display: grid;
+        grid-template-columns: 450px;
+    }
+
+    .grid2 {
+        margin: 20px 20px;
+        width: 0px;
+        height: 400px;
+
+        border-radius: 10px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 577px)and (max-width: 1100px) {
+
+    .banner-container {
+        margin: 50px 50px 200px 50px;
+
+        border-radius: 50px;
+        display: flex;
+
+        background-color: rgb(32, 32, 32);
+    }
+
+    .banner-container img {
+        width: 400px;
+    }
+
+    .salahpic {
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding-left: 110px;
+        top: 34px;
+
+        right: 250px;
+    }
+
+    .titletext h1 {
+        font-size: 40px;
+    }
+
+    .titletext p {
+        font-size: 20px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+
+    }
+
+    .match-container {
+
+        display: grid;
+        grid-template-columns: 500px;
+    }
+
+    .gridmenu {
+        margin-left: 80px;
+        position: relative;
+        top: -15px;
+        display: grid;
+        grid-template-columns: 450px 450px;
+
+    }
+
+    .navbar {
+        margin-bottom: 200px;
+        margin-left: 70px;
+        background-color: rgb(241, 244, 247);
+        height: 40px;
+        width: 900px;
+        color: rgb(0, 0, 0);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+
+
+    }
+
+
+    .nav1 {
+
+        font-size: 30px;
+
+        font-weight: 300;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 350px;
+        height: 80px;
+        border: 1px solid rgb(211, 211, 211);
+    }
+
+    .view button {
+        background-color: brown;
+        color: aliceblue;
+        width: 200px;
+        height: 80px;
+        border: none;
+        margin-left: 450px;
+        border-radius: 10px;
+        font-size: larger;
+        visibility: visible;
+    }
+
+    .gridmenu2 {
+        position: relative;
+        top: -15px;
+        display: grid;
+        grid-template-columns: 450px 450px;
+    }
+
+    .grid2 {
+        margin: 20px 20px;
+        width: 0px;
+        height: 400px;
+
+        border-radius: 10px;
+    }
+
 }
