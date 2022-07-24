@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@500&display=swap');
+
+body {
+    font-family: 'Albert Sans', sans-serif;
+    background-color: rgb(241, 244, 247);
+}
+
+.banner-container {
+    margin: 50px 50px 200px 50px;
+
+    border-radius: 50px;
+    display: flex;
+    background-color: rgb(32, 32, 32);
+
+}
+
+.salahpic {
+    position: relative;
+    width: 1fr;
+    margin: 0;
+    padding: 0;
+    top: 4px;
+
+    right: 100px;
+}
+
+.titletext {
+    position: relative;
+
+    width: 50%;
+    color: rgb(255, 255, 255);
+    padding: 50px 100px 50px 100px;
+}
+
+.button {
+    background-color: brown;
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 250px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 30px;
+    transition: 1s;
+
+
+}
+
+.fa-solid fa-greater-than {
+    position: relative;
+}
+
+.button:hover {
+    color: red;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    margin-bottom: 200px;
+    margin-left: 50px;
+    background-color: rgb(17, 17, 17);
+    height: 400px;
+    width: 430px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+
+}
+
+.nav1 {
+
+    font-size: 30px;
+
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 350px;
+    height: 80px;
+}
+
+
+.match-container {
+    position: sticky;
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+}
+
+
+.gridmenu img:first-child {
+    border-radius: 10px 10px 0px 0px;
+    width: 400px;
+    height: 220px;
+
+}
+
+.gridmenu {
+    position: relative;
+    top: -15px;
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+
+}
+
+.grid-templates {
+    border: 1px solid rgb(218, 218, 218);
+    margin: 20px 20px;
+    width: 400px;
+    height: 460px;
+
+    border-radius: 10px;
+}
+
+.grid-templates h5 {
+    margin-left: 20px;
+    width: 70px;
+    padding: 5px 20px;
+    font-size: larger;
+    border: 2px solid rgb(150, 150, 150);
+    border-radius: 10px;
+
+}
+
+.grid-templates p {
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.icons {
+    padding-left: 20px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: -10px;
+    font-size: larger;
+
+
+}
+
+.icons h6 {
+    font-size: 20px;
+    font-weight: 100;
+    position: relative;
+    top: -48px;
+    color: grey;
+}
+
+.gridmenu2 {
+    position: relative;
+    top: -15px;
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+}
+
+.grid2 {
+    margin: 20px 20px;
+    width: 40px;
+    height: 40px;
+
+    border-radius: 10px;
+}
+
+.gridmenu2 img {
+    border-radius: 5px 5px 5px 5px;
+    width: 400px;
+    height: 220px;
+}
+
+.foot {
+    background-color: rgb(20, 20, 20);
+    height: 400px;
+    margin: -8px;
+
+}
+
+.foot h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    color: aliceblue;
+}
+
+hr {
+    width: 70%;
+    background-color: rgb(63, 61, 61);
+
+    border: none;
+    height: 1px;
+}
+
+.footp {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    color: grey;
+    gap: 50px;
+}
+
+.social {
+
+    color: aliceblue;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
